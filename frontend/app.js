@@ -4,7 +4,7 @@
  * Handles user input, API calls, and dynamic result rendering.
  */
 
-const API_BASE = "";  // relative – works on Vercel and locally via `vercel dev`
+const API_BASE = "/api";  // Vercel serverless functions live under /api/
 
 // ─── DOM References ────────────────────────────────────────────────────────
 const symptomInput = document.getElementById("symptomInput");
