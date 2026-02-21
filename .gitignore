@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Data (raw CSVs - not needed in deployment)
+data/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Vercel
+.vercel/
+
+# NOTE: model/*.pkl files are intentionally NOT ignored.
+# They must be committed so Vercel can bundle them.
